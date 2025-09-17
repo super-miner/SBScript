@@ -4,7 +4,7 @@ SBScript (SBS) aims to create a language that compiles to highly efficient Scrat
 
 ## Scratch 3's Limitations
 
-Before discussing the design of this scripting language it is important to define some of it's limitations. In case these limitations are changed their values will only be outlined in this section of the document and they will be referenced by name everywhere else.
+Before discussing the design of SBS it is important to define some of Scratch's limitations. In case these limitations are changed in the future, their values will only be outlined in this section of the document and they will be referenced by name everywhere else.
 
 > JSON Size Limit → 5MB:
 >
