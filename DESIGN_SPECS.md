@@ -48,7 +48,7 @@ But this has a few limitations that will need to be addressed, notably:
 
 #### List types
 
-Lists can (for the most part) be handled using the same ideas as variables, the only issue is their size limit. Lists in Scratch can only store so many items, meaning we'll have to get creative.
+Scratch lists can (for the most part) be handled using the same ideas as variables, the only issue is their size limit. Lists in Scratch can only store so many items, meaning we'll have to get creative.
 
 If we know the size of the list at compile time and it is larger than the size of a single list we can use multiple lists:
 
