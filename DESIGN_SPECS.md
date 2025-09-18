@@ -1,6 +1,6 @@
 # SBScript Design Specifications
 
-SBScript (SBS) aims to create a language that compiles to highly efficient Scratch (`.sb3`) projects, while remaining decoupled from the underlying structure of Scratch. This is as opposed to other languages that try to emulate the structure of Scratch projects in text (see [goboscript](https://github.com/aspizu/goboscript)). The language will have a similar syntax and feature set to modern programming languages such as C# and Swift with minimal sacrifice to convinience and ease of use. As a result, SBS will lose some performance by implementing features not found natively in Scratch and the produced Scratch projects may be less readable, but this is deemed worth it in exchange for these conviniences.
+SBScript (SBS) aims to create a language that compiles to highly efficient Scratch (`.sb3`) projects, while remaining decoupled from the underlying structure of Scratch. This is as opposed to other languages, which try to emulate the structure of Scratch projects in text (see [goboscript](https://github.com/aspizu/goboscript)). The language will have a similar syntax and feature set to modern programming languages such as C# and Swift with minimal sacrifice to convinience and ease of use. As a result, SBS will lose some performance by implementing features not found natively in Scratch and the produced Scratch projects may be less readable, but this is deemed worth it in exchange for these conviniences.
 
 ## Scratch 3's Limitations
 
