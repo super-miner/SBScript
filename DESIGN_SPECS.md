@@ -52,9 +52,9 @@ Lists can — for the most part — be handled using the same ideas as variables
 
 If we know the size of the list at compile time then there are one of two options: 
 
-A. The list size is smaller than Scratch's limit and we can treat it like any other variable.
+**A.** The list size is smaller than Scratch's limit and we can treat it like any other variable.
 
-B. The list is larger then Scratch's limit, in which case we can use multiple lists and apply this naming convension:
+**B.** The list is larger then Scratch's limit, in which case we can use multiple lists and apply this naming convension:
 
 ```CSharp
 scratch_list_name = list_scope_as_string + list_name + list_block_number
