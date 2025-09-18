@@ -50,7 +50,7 @@ But this has a few limitations that will need to be addressed, notably:
 
 Lists can (for the most part) be handled using the same ideas as variables, the only issue is their size limit. Lists in Scratch can only store so many items, meaning we'll have to get creative.
 
-If we know the size of the list at compile time and it is larger than the size of a single list we can use multiple lists:
+If we know the size of the list at compile time then there are one of two options: Either the list size is smaller than Scratch's limit and we can treat it lik any other variable or it is larger then Scratch's limit. If it is larger than the max Scratch list size then we can use multiple lists and apply this naming convension:
 
 ```CSharp
 scratch_list_name = list_scope_as_string + list_name + list_block_number
@@ -68,14 +68,14 @@ Unfortunately scratch does not let you dynamically select a list to access, so h
 [guestList.getItem (index)]
   [if (index > 400000)]
     [if (index > 600000)]
-      [set [guestList.getItem.output] to (get item (index - 600000) from [guestList.3])]
+      [set [returnValue] to (get item (index - 600000) from [guestList.3])]
     [else]
-      [set [guestList.getItem.output] to (get item (index - 400000) from [guestList.2])]
+      [set [returnValue] to (get item (index - 400000) from [guestList.2])]
   [else]
     [if (index > 200000)]
-      [set [guestList.getItem.output] to (get item (index - 200000) from [guestList.1])]
+      [set [returnValue] to (get item (index - 200000) from [guestList.1])]
     [else]
-      [set [guestList.getItem.output] to (get item (index) from [guestList.0])]
+      [set [returnValue] to (get item (index) from [guestList.0])]
 ```
 
 ## The Standard Library
