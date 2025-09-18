@@ -66,7 +66,7 @@ scratch_list_name = list_scope_as_string + list_name + list_block_number
 // simulateStep.2.5.ignoreList.1
 ```
 
-Unfortunately Scratch does not let you dynamically select a list to access, so helper functions will have to be created:
+Unfortunately, Scratch does not let you dynamically select a list to access, so helper functions will have to be created:
 
 ```CSharp
 [guestList.getItem (index)]
