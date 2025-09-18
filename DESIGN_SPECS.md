@@ -33,7 +33,7 @@ Scratch is also limited by its processing speed largely as a result of it being 
 A naive approach to implementing variables in the compiled scratch project might look like this:
 
 ```CSharp
-variable_name = variable_scope_as_string + variable_name
+scratch_variable_name = variable_scope_as_string + variable_name
 
 // Example results:
 //
@@ -53,7 +53,7 @@ Lists can (for the most part) be handled using the same ideas as variables, the 
 If we know the size of the list at compile time and it is larger than the size of a single list we can use multiple lists:
 
 ```CSharp
-list_name = list_scope_as_string + list_name + list_block_number
+scratch_list_name = list_scope_as_string + list_name + list_block_number
 
 // Example results:
 //
