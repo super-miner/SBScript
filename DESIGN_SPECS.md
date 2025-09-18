@@ -48,7 +48,7 @@ But this has a few limitations that will need to be addressed, notably:
 
 #### List types
 
-Lists can -- for the most part -- be handled using the same ideas as variables, the only issue is their size limit. To get around this we have a few options depending on the circumstances.
+Lists can — for the most part — be handled using the same ideas as variables, the only issue is their size limit. To get around this we have a few options depending on the circumstances.
 
 If we know the size of the list at compile time then there are one of two options: Either the list size is smaller than Scratch's limit and we can treat it like any other variable or it is larger then Scratch's limit and we have to do a bit more. If it is larger than the maximum Scratch list size then we can use multiple lists and apply this naming convension:
 
