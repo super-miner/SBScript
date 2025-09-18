@@ -14,7 +14,7 @@ Before discussing the design of SBS it is important to define some of Scratch's 
 > Asset Size Limit → 1MB:
 > 
 > The size limit for each *individual* asset inside of a project.
-> (The [wiki](https://en.scratch-wiki.info/wiki/Project_File_Size) lists no official limit on how many assets you can have in a project.)
+> (The [wiki](https://en.scratch-wiki.info/wiki/Project_File_Size) lists no official limit on how many assets a project can contain).
 
 > List Size Limit → 200,000 items:
 >
