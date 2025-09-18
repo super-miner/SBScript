@@ -70,6 +70,7 @@ Unfortunately, Scratch does not let you dynamically select a list to access, so 
 
 ```CSharp
 [guestList.getItem (index)]
+  // Binary search will be used in these functions to increase efficiency.
   [if (index > 400000)]
     [if (index > 600000)]
       [set [returnValue] to (get item (index - 600000) from [guestList.3])]
