@@ -136,7 +136,18 @@ int myVar = 10;
 
 ### Collections
 
-Due to the limit Scratch places on lists sizes, all collections will need to be initilized with a maximum upper bound on how many elements they can hold. Keep in mind that this does not mean that all collections will have a fixed size or take up a fixed amount of memory, but is just an upper bound on their size. One array will need to be created in scratch per every 200,000 items so the size an empty array of size $n$ will take up is $\frac{n}{200000}$.
+Due to the limit Scratch places on the sizes of lists, all collections will need to be initilized with a maximum upper bound on how many elements they can hold. Keep in mind that this does not mean that all collections will have a fixed size or take up a fixed amount of memory, but is only an *upper* bound on their size. One Scratch list will need to be created per every 200,000 items so the size an empty collection of size $n$ will take up is $\frac{n}{200000}\times s$ where $s$ is the size of an empty Scratch list.
+
+```CSharp
+// An example list definition.
+
+List<int>[400000] myList = [];
+
+
+// An example dictionary definition.
+
+Dictionary<string, int>[575000] myDict = {};
+```
 
 
 
